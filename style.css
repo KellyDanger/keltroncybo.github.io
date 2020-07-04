@@ -3,8 +3,30 @@ body {
   font-family: 'Montserrat', sans-serif;
   color: #fff5ee;
   background-color: #696969;
-  text-align: center;
+ }
+a {}
+h5{}
+h3{}
+h2{}
+h1{}
+
+/*Header Section/
+
+header{}
+nav{}
+nav span{
+  display: inline-block;
 }
+#contact{}
+#experience{}
+#experience .employer{}
+#experience .duties{}
+#education{}
+#education span{}
+#skills{}
+#skills .skillslist{}
+
+  
 
 
 h1 {
