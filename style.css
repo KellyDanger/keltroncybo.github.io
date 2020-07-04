@@ -1,49 +1,54 @@
 body {
-  margin: 0;
-  font-family: 'Montserrat', sans-serif;
-  color: #fff5ee;
-  background-color: #696969;
- }
-a {
-  color: #ff5ee;  
-}
-h5,
-h3,
-h2 {
-  font-size: 40px;
-  font-weight: bold;
-  color: teal;
-}
-h1 {
-  font-size: 80px;
-  font-weight: bold;
-  color: teal;
-}
-
-header {
-   width: 100%;
-   height: 69px;
-   border-bottom: 1px solid seashell;
-   background-color: 2f4f4f;
-   align-items: center;
-}
-nav,
-nav span {
-  display: inline-block;
-  color: #fff5ee;
-}
-#contact,
-#experience,
-#experience .employer,
-#experience .duties,
-#education,
-#education span,
-#skills,
-#skills .skillslist,
-
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff5ee;
+    background-color: #696969;
+   }
+  a {
+    color: #fff5ee;  
+  }
+  h5{}
+  h3{}
+  h2 {
+    font-size: 40px;
+    font-weight: bold;
+    color: teal;
+    
+  }
+  h1 {
+    font-size: 80px;
+    font-weight: bold;
+    color: seashell;
+    text-align: center;
+    padding-bottom: 0px;
+  }
   
-
-
-
-
-
+  header {
+     width: 100%;
+     border-bottom: 1px solid seashell;
+     background-color: #2f4f4f;
+     align-items: center;
+     
+  }
+  nav{}
+  nav span {
+    display: inline-block;
+    color: #fff5ee;
+  }
+  #contact{
+    text-align: center;
+    padding-top: 0px; 
+  }
+  #experience{}
+  #experience .employer{}
+  #experience .duties{}
+  #education{}
+  #education span{
+    display: inline-block;
+    border-top: 1px solid seashell;
+    border-bottom: 1px solid seashell;
+  }
+  #skills{}
+  #skills .skillslist {
+    font-style: italic;
+  }
