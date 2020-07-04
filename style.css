@@ -19,15 +19,14 @@ h1 {
 header {
    width: 100%;
    height: 69px;
-   position: fixed;
    border-bottom: 1px solid seashell;
    background-color: 2f4f4f;
-   z-index: 1;
    align-items: center;
 }
 nav,
 nav span {
   display: inline-block;
+  color: #fff5ee;
 }
 #contact,
 #experience,
