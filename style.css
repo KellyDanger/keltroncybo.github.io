@@ -79,9 +79,10 @@ body {
   #skills{
     border-bottom: 1px solid seashell;
     margin-bottom: 15px;
-    width: 75%;
+    
   }
   #skills .skillslist {
     font-style: italic;
+    width: 75%;
   }
   
