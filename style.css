@@ -2,17 +2,21 @@ body {
     margin: 0;
     font-family: 'Montserrat', sans-serif;
     color: #fff5ee;
-    background-color: #696969;
+    background-color: #918e8e;
+    margin-left: 5%;
+    margin-right: 5%;
    }
   a {
     color: #fff5ee;  
   }
-  h5{}
+  h5{
+    font-size: 15px;
+  }
   h3{}
   h2 {
-    font-size: 40px;
+    font-size: 20px;
     font-weight: bold;
-    color: teal;
+    color: #1dbbbb;
     
   }
   h1 {
@@ -20,7 +24,7 @@ body {
     font-weight: bold;
     color: seashell;
     text-align: center;
-    padding-bottom: 0px;
+    margin-bottom: 0px;
   }
   
   header {
@@ -30,25 +34,51 @@ body {
      align-items: center;
      
   }
+  footer{
+    margin-bottom: 50px;
+  }
+  footer span {
+    align-items: center;
+    border: 1px solid seashell;
+    padding: 2px;
+    margin-top: 10px;
+    
+  }
   nav{}
   nav span {
     display: inline-block;
     color: #fff5ee;
+    border: 1px solid seashell;
+    background-color: #918e8e;
+    margin-bottom: 1%;
+    margin-left: 1%;
+    padding: 2px;
   }
-  #contact{
-    text-align: center;
+    
+  #contact span{
     padding-top: 0px; 
+    display: inline-block 50%;
+    border-top: 1px solid seashell;
+    text-align: center;
+    
+    
   }
   #experience{}
   #experience .employer{}
-  #experience .duties{}
+  #experience .duties{
+    width: 75%;
+  }
   #education{}
   #education span{
     display: inline-block;
     border-top: 1px solid seashell;
     border-bottom: 1px solid seashell;
   }
-  #skills{}
+  #skills{
+    border-bottom: 1px solid seashell;
+    margin-bottom: 15px;
+  }
   #skills .skillslist {
     font-style: italic;
   }
+  
