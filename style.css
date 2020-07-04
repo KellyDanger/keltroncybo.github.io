@@ -13,12 +13,17 @@ h2,
 h1 {
   font-size: 80px;
   font-weight: bold;
-  background-color: 2f4f4f;
   color: teal;
 }
 
 header {
-  text-align: center;
+   width: 100%;
+   height: 69px;
+   position: fixed;
+   border-bottom: 1px solid seashell;
+   background-color: 2f4f4f;
+   z-index: 1;
+   align-items: center;
 }
 nav,
 nav span {
