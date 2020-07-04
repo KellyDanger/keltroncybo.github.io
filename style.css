@@ -9,7 +9,11 @@ a {
 }
 h5,
 h3,
-h2,
+h2 {
+  font-size: 40px;
+  font-weight: bold;
+  color: teal;
+}
 h1 {
   font-size: 80px;
   font-weight: bold;
